@@ -21,9 +21,10 @@ const Projects = () => {
               <img className="kanban" src={Kanban} alt={'Kanban app'} />
             </div>
             <div className="gitdeploy">
-              <h4>GitHub</h4>
+              <a href="https://github.com/MadRiver44/Kanban_Board">
+                <h4>GitHub</h4>
+              </a>
               <h3>Kanban</h3>
-              <h4>Deployed</h4>
             </div>
           </div>
 
@@ -32,9 +33,12 @@ const Projects = () => {
               <img className="library" src={LibraryApp} alt={'Library App'} />
             </div>
             <div className="gitdeploy proj2">
-              <h4>GitHub</h4>
-              <h3>LibraryApp</h3>
-              <h4>Deployed</h4>
+              <a href="https://github.com/MadRiver44/LibraryApp">
+                <h4>GitHub</h4>
+              </a>
+              <a href="https://glacial-escarpment-66257.herokuapp.com/catalog">
+                <h3>LibraryApp</h3>
+              </a>
             </div>
           </div>
 
@@ -43,9 +47,10 @@ const Projects = () => {
               <img className="awesome" src={Awesome} alt={'Awesome_ToDo app'} />
             </div>
             <div className="gitdeploy proj3">
-              <h4>GitHub</h4>
+              <a href="https://github.com/MadRiver44/Project-4">
+                <h4>GitHub</h4>
+              </a>
               <h3>AwesomeToDo</h3>
-              <h4>Deployed</h4>
             </div>
           </div>
 
@@ -54,9 +59,12 @@ const Projects = () => {
               <img className="subwaze" src={Subwaze} alt={'Subwaze app'} />
             </div>
             <div className="gitdeploy proj4">
-              <h4>GitHub</h4>
-              <h3>Subwaze</h3>
-              <h4>Deployed</h4>
+              <a href="https://github.com/MadRiver44/subwaze">
+                <h4>GitHub</h4>
+              </a>
+              <a href="https://subwaze.herokuapp.com/">
+                <h3>Subwaze</h3>
+              </a>
             </div>
           </div>
 
@@ -67,7 +75,6 @@ const Projects = () => {
             <div className="gitdeploy proj5">
               <h4>GitHub</h4>
               <h3>NetVids</h3>
-              <h4>Deployed</h4>
             </div>
           </div>
         </div>
