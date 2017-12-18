@@ -1,12 +1,13 @@
-/*
-font-family: 'Cinzel', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Poiret One', cursive;
-font-family: 'Syncopate', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Simonetta', cursive;
-font-family: 'Julius Sans One', sans-serif;
-*/
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('./JuliusSansOne-Regular.eot');
+  src: url('./JuliusSansOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./JuliusSansOne-Regular.woff2') format('woff2'),
+    url('./JuliusSansOne-Regular.woff') format('woff'),
+    url('./JuliusSansOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
