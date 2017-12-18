@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve(__dirname, 'app/index.js'),
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
+    filename: '[name].js',
   },
   module: {
     loaders: [
@@ -18,6 +18,10 @@ module.exports = {
         use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' }),
       },
       { test: /\.(png|svg|jpg|gif)$/, use: ['file-loader'] },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: ['file-loader'],
+      },
     ],
   },
   plugins: [
