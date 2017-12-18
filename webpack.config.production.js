@@ -26,6 +26,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ title: 'My App', filename: 'admin.html' }),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production'),
+    }),
     new webpack.optimize.UglifyJsPlugin(),
     new ExtractTextPlugin('styles.css'),
     new webpack.optimize.CommonsChunkPlugin('common.js'),
