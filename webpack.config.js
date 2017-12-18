@@ -5,7 +5,7 @@ let config = {
   entry: path.resolve(__dirname, 'app/index.js'),
   output: {
     path: path.resolve(__dirname, '/public'),
-    filename: '[name].js',
+    filename: 'bundle.js',
   },
   module: {
     rules: [
