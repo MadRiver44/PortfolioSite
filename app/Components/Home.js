@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Nav from './Nav';
 import Header from './Header';
-import Hiking from '../../public/images/hiking.jpg';
-import Family from '../../public/images/family.jpg';
-import Kody from '../../public/images/kody.jpg';
+// import Hiking from '../../public/images/hiking.jpg';
+// import Family from '../../public/images/family.jpg';
+// import Kody from '../../public/images/kody.jpg';
 
 const Home = () => {
   return (
