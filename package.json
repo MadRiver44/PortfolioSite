@@ -2,7 +2,7 @@
   "name": "portfolio2",
   "version": "1.0.0",
   "engines": {
-    "node": "7.1.0"
+    "node": "8.9.3"
   },
   "description": "Portfolio constructed with React, Webpack, and Babel",
   "main": "app/index.js",
