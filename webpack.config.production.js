@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve(__dirname, 'app/index.js'),
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: '[name].js',
+    filename: '[name].js', //'[name].js'
   },
   module: {
     loaders: [
@@ -29,7 +29,8 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
     new ExtractTextPlugin('styles.css'),
     new webpack.optimize.CommonsChunkPlugin('common.js'),
   ],
