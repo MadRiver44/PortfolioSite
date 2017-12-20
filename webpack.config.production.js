@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve(__dirname, 'app/index.js'),
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: '[name].js', //'[name].js'
+    filename: 'bundle.js', //'[name].js'
   },
   module: {
     loaders: [
@@ -25,13 +25,13 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({ title: 'My App', filename: 'admin.html' }),
+    new HtmlWebpackPlugin({ template: 'public/index.html', title: 'Portfolio' }), //title: 'My App', filename: 'admin.html'
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
     new ExtractTextPlugin('styles.css'),
-    new webpack.optimize.CommonsChunkPlugin('common.js'),
+    //new webpack.optimize.CommonsChunkPlugin('common.js'), creates a multiple file emit error to bundle.js
   ],
 };
