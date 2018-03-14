@@ -1,13 +1,14 @@
-const path = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path')
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   entry: path.resolve(__dirname, 'app/index.js'),
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js', //'[name].js'
+    publicPath: '/',
   },
   module: {
     loaders: [
@@ -34,4 +35,4 @@ module.exports = {
     new ExtractTextPlugin('styles.css'),
     //new webpack.optimize.CommonsChunkPlugin('common.js'), creates a multiple file emit error to bundle.js
   ],
-};
+}

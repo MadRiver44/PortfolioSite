@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
-import Home from './Home';
-import Projects from './Projects';
-import About from './About';
-import Header from './Header';
-import Nav from './Nav';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom'
+import Home from './Home'
+import Projects from './Projects'
+import About from './About'
+import Header from './Header'
+import Nav from './Nav'
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/projects" component={Projects} />
       </Switch>
     </Router>
-  );
-};
+  )
+}
 
-export default App;
+export default App
