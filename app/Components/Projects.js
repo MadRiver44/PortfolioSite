@@ -54,7 +54,7 @@ const Projects = () => {
             <img className="library" src={LibraryApp} alt={'Library App'} />
           </div>
           <div className="gitdeploy proj2">
-            <a href="https://github.com/MadRiver44/LibraryApp" target="relnoopener">
+            <a href="https://github.com/MadRiver44/LibraryApp" target="_blank" rel="noopener">
               <h4>GitHub</h4>
             </a>
             <a
@@ -73,10 +73,11 @@ const Projects = () => {
             <img className="movieHunt" src={MovieHunt} alt={'MovieHunt app'} />
           </div>
           <div className="gitdeploy proj5">
+          <a href="https://github.com/MadRiver44/MovieHuntPlus" target="_blank" rel="noopener"></a>
             <h4>GitHub</h4>
 
             <a
-              href="http://confident-heyrovsky-662f33.bitballoon.com/"
+              href="https://github.com/MadRiver44/MovieHuntPlus"
               target="_blank"
               rel="noopener">
               <h3>Movie Hunt</h3>
