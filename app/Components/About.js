@@ -36,7 +36,9 @@ import JadeSVG from '../../public/images/jade.svg';
 import HerokuSVG from '../../public/images/heroku.svg';
 import GraphQlSVG from '../../public/images/graphql.svg';
 import BootstrapSVG from '../../public/images/bootstrap.svg';
-import VimSVG from '../../public/images/file_type_vim.svg';
+import PythonSVG from '../../public/images/python.svg';
+import DjangoSVG from '../../public/images/django.svg';
+import FlaskSVG from '../../public/images/flask.svg';
 
 const About = () => {
   return (
@@ -47,8 +49,8 @@ const About = () => {
           <div className="fun-block elvis">
             <img className="elvis" src={Elvis} alt="elvis" />
             <p>
-              My beautiful and wickedly smart wife got married by Elvis in Vegas. We had a super fun
-              time with friends and family and had over 200 people livestreaming it!
+              My beautiful and wickedly smart wife and I got married by Elvis in Vegas. We had a
+              super fun time with friends and family and had over 200 people livestreaming it!
             </p>
           </div>
 
@@ -84,8 +86,8 @@ const About = () => {
             <img src={ES6SVG} alt="es6" />
             <img src={NodeJsSVG} alt="node" />
             <img src={ExpressSVG} alt="express" />
-            <img src={RubySVG} alt="ruby" />
-            <img src={RailsSVG} alt="rails" />
+            <img src={PythonSVG} alt="python" />
+            <img src={DjangoSVG} alt="django" />
           </div>
           <div className="tech-skills">
             <img src={CSS3SVG} alt="css3" />
@@ -103,6 +105,7 @@ const About = () => {
             <img src={GruntSVG} alt="grunt" />
             <img src={ImmutableSVG} alt="immutable" />
             <img src={ReactRouterSVG} alt="react-router" />
+            <img src={RubySVG} alt="ruby" />
           </div>
           <div className="tech-skills">
             <img src={MongoDBSVG} alt="mongo" />
@@ -113,11 +116,12 @@ const About = () => {
             <img src={GitSVG} alt="git" />
           </div>
           <div className="tech-skills">
+            <img src={RailsSVG} alt="rails" />
+            <img src={FlaskSVG} alt="flask" />
             <img src={WebpackSVG} alt="webpack" />
             <img src={BabelSVG} alt="Babel" />
             <img src={GulpSVG} alt="gulp" />
             <img src={HerokuSVG} alt="heroku" />
-            <img src={VimSVG} alt="vim" />
           </div>
           <p>... and I'll never be done learning.</p>
         </div>

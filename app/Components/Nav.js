@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
 import Projects from './Projects';
 import About from './About';
+import Publications from './Publications';
 
 const Nav = () => {
   return (
@@ -12,6 +13,9 @@ const Nav = () => {
         </NavLink>
         <NavLink to="/about">
           <h3>About</h3>
+        </NavLink>
+        <NavLink to="/publications">
+          <h3>Publications</h3>
         </NavLink>
         <NavLink to="/projects">
           <h3>Projects</h3>

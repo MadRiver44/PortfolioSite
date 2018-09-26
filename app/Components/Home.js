@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Nav from './Nav';
 import Header from './Header';
 
+            // Hello! I'm Kevin Turney and I help teams build great products. Every project for me is
+            // an opportunity to not only learn and grow as a Dev, but to creatively solve complex
+            // problems and deliver solid results.
 const Home = () => {
   return (
     <div className="container">
@@ -10,16 +13,13 @@ const Home = () => {
 
       <div className="section-about">
         <div className="my-intro">
-          <p>
-            Hello! I'm Kevin Turney and I help teams build great products. Every project for me is
-            an opportunity to not only learn and grow as a Dev, but to creatively solve complex
-            problems and deliver solid results.
+          <p>I am a full stack engineer with a strong background in building JavaScript web applications using a variety of modern frontend frameworks such as React/Redux and Node/Express.js, SQL, and NoSQL databases for the backend. I value writing clean and modular code, conforming to best practices, and incorporating build automation and debugging tools for a smooth development flow.
           </p>
 
           <p className="links">
             {' '}
             <a href="https://www.linkedin.com/in/kevinturney">LinkedIn</a>
-            <a href="mailto:kmturney@optonline.net">kmturney@optonline.net</a>
+            <a href="mailto:kmturney@optonline.net">kevinturney01@gmail.com</a>
           </p>
 
           {/* ---------- Component Expertise-------------*/}

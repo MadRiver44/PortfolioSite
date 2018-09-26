@@ -104,6 +104,10 @@ a {
   font-size: 15px;
 }
 
+.navbar a h3:hover {
+  color: hsl(119, 89%, 50%);
+}
+
 .my-intro {
   display: flex;
   justify-content: center;
@@ -169,7 +173,7 @@ img.awesome {
   height: 100%;
 }
 
-img.netvids {
+img.movieHunt {
   height: 100%;
 }
 
@@ -325,10 +329,51 @@ img.hiking {
 .tech-skills {
   display: flex;
   justify-content: space-between;
-  width: 60%;
 }
+
 .tech-skills > img {
   height: 50px;
   width: 50px;
   margin: 10px;
+}
+
+/* Publications */
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles h1 {
+  color: #e7638c;
+  font-size: 24px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 24px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: normal;
+}
+
+.learning {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: normal;
+}
+
+.articles a h1:hover {
+  color: hsl(119, 89%, 50%);
 }

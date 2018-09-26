@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom'
-import Header from './Header'
-import Nav from './Nav'
-import Subwaze from '../../public/images/subwaze.png'
-import Kanban from '../../public/images/Kanban.png'
-import Awesome from '../../public/images/Awesome_ToDo.png'
-import NetVids from '../../public/images/NetVids.png'
-import LibraryApp from '../../public/images/Library_App.png'
-import GithubBattle from '../../public/images/Github_Battle.png'
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
+import Header from './Header';
+import Nav from './Nav';
+import Subwaze from '../../public/images/subwaze.png';
+import Kanban from '../../public/images/Kanban.png';
+import Awesome from '../../public/images/Awesome_ToDo.png';
+import HHBBall from '../../public/images/HHBasketballLeague.png';
+import MovieHunt from '../../public/images/MovieHuntPlus.png';
+import LibraryApp from '../../public/images/Library_App.png';
+import GithubBattle from '../../public/images/Github_Battle.png';
 
 const Projects = () => {
   return (
@@ -34,14 +35,14 @@ const Projects = () => {
       <div className="project-list">
         <div className="container">
           <div className="named-project-box">
-            <img className="kanban" src={Kanban} alt={'Kanban app'} />
+            <img className="hhBBall" src={HHBBall} alt={'HHBasketballLeague app'} />
           </div>
           <div className="gitdeploy">
-            <a href="https://github.com/MadRiver44/Kanban_Board">
+            <a href="https://github.com/MadRiver44/Hash-History-League">
               <h4>GitHub</h4>
             </a>
-            <a href="http://kanbanboard.bitballoon.com/" target="_blank" rel="noopener">
-              <h3>Kanban</h3>
+            <a href="https://agile-depths-17922.herokuapp.com/" target="_blank" rel="noopener">
+              <h3>HH Basketball League</h3>
             </a>
           </div>
         </div>
@@ -69,17 +70,16 @@ const Projects = () => {
       <div className="project-list">
         <div className="container">
           <div className="named-project-box">
-            <img className="awesome" src={Awesome} alt={'Awesome_ToDo app'} />
+            <img className="movieHunt" src={MovieHunt} alt={'MovieHunt app'} />
           </div>
-          <div className="gitdeploy proj3">
-            <a href="https://github.com/MadRiver44/Project-4">
-              <h4>GitHub</h4>
-            </a>
+          <div className="gitdeploy proj5">
+            <h4>GitHub</h4>
+
             <a
-              href="https://appetize.io/app/9ack7kqn0t6phbtrrkffgjave4?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3"
+              href="http://confident-heyrovsky-662f33.bitballoon.com/"
               target="_blank"
               rel="noopener">
-              <h3>AwesomeToDo</h3>
+              <h3>Movie Hunt</h3>
             </a>
           </div>
         </div>
@@ -100,26 +100,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
-      <div className="project-list">
-        <div className="container">
-          <div className="named-project-box">
-            <img className="netvids" src={NetVids} alt={'NetVids app'} />
-          </div>
-          <div className="gitdeploy proj5">
-            <h4>GitHub</h4>
-
-            <a
-              href="http://confident-heyrovsky-662f33.bitballoon.com/"
-              target="_blank"
-              rel="noopener">
-              <h3>NetVids</h3>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
