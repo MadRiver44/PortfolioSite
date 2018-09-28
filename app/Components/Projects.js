@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div>
       <Header />
-      <div className="section-header" />
+      <div className="section-header"> For more projects and experiments view my github</div>
 
       <div className="project-list">
         <div className="container">
